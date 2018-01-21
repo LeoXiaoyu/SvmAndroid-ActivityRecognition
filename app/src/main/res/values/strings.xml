@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SVMProj</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="Action">
+        <item>Unknown</item>
+        <item>Still</item>
+        <item>Petty action</item>
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Climbing up stairs</item>
+        <item>Climbing down stairs</item>
+        <item>Riding up escalator</item>
+        <item>Riding down escalator</item>
+        <item>Riding up elevator</item>
+        <item>Riding down elevator</item>
+        <item>Sitting &amp; relaxing</item>
+        <item>WatchingTV</item>
+        <item>Stretching</item>
+        <item>Scrubbing</item>
+        <item>Folding laundry</item>
+        <item>Brushing teeth</item>
+        <item>Strength-training</item>
+        <item>Vacuuming</item>
+        <item>Lying down &amp; relaxing</item>
+        <item>Sit-ups</item>
+    </array>
+
+    <array name="Position">
+        <item>Unknown</item>
+        <item>Hand Fixed</item>
+        <item>Hand Swing</item>
+        <item>Pant Pocket</item>
+        <item>Back Pocket</item>
+        <item>Coat Pocket</item>
+        <item>Cheset Pocket</item>
+        <item>Shoulder Bag</item>
+        <item>Arm Bag</item>
+        <item>Hand Bag</item>
+        <item>Waist Bag</item>
+        <item>Back Bag</item>
+    </array>
+
+    <array name="HZ">
+        <item>SENSOR_DELAY_FASTEST</item>
+        <item>SENSOR_DELAY_GAME</item>
+        <item>SENSOR_DELAY_UI</item>
+        <item>SENSOR_DELAY_NORMAL</item>
+    </array>
+</resources>

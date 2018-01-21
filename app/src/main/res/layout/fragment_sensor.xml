@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="smv.lovearthstudio.com.svmproj.fragment.SensorFragment">
+
+    <TextView
+        android:id="@+id/tv_sensor_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_open_sensor"
+            style="@style/SvmBtnStyle"
+            android:text="打开传感器" />
+
+        <Button
+            android:id="@+id/btn_close_sensor"
+            style="@style/SvmBtnStyle"
+            android:visibility="gone"
+            android:text="关闭传感器" />
+    </LinearLayout>
+
+
+</LinearLayout>
